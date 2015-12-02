@@ -1,0 +1,19 @@
+1. Kopiera Random Indexing-paketet till hemkatalogen. done
+
+2. Gå in i katalogen. done
+
+3. Titta i testfilerna. ser ut som skit, jag kopierar över allt lokalt. Igen problem med teckenkodningen. done
+
+4. Kör nu programmet OrdHP med träningsmängd ri_dataset1/ och testfilen test1.dat
+Hur många rätt blev det? 16
+Hur många rätt hade det blivit om man hade chansat? 
+
+
+5. Öppna resultatfilen och bekanta dig med resultatet.
+done
+
+
+
+
+
+
