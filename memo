@@ -20,6 +20,49 @@ Resultatet ökade från 16 till 24. Anledningen är att vi filtrerar bort ord i 
 Får du bättre resultat?
 På vilket sätt tror du att de olika parametrarna spelar olika roll beroende på vilken textmängd man använder?
 
+DIMENSIONALITY
+---
+Ändrar dimensionality från 1800 till 1600
+ingen skillnad i resultat alls
+---
+Ändrar dimensionality från 1600 till 800
+Correct: 22
+Missed: 37
+Unsufficient: 0 (0*)
+Total: 59
+Total time: 0.033416666 minutes
+---
+Ändrar dimensionality från 800 till 3000
+Correct: 22
+Missed: 37
+Unsufficient: 0 (0*)
+Total: 59
+Total time: 0.040483333 minutes
+---
+Ändrar tillbaka dimensionality från 800 till 1800
+Correct: 24
+Missed: 35
+Unsufficient: 0 (0*)
+Total: 59
+Total time: 0.036916666 minutes
+---
+Slutsats: påverkar resultatet något sämre vid både höjning och sänkning, går snabbare vid lägre dimensionalitet
 
-
-
+WINDOW SIZE
+---
+Ändrar left + right window size från 4 till 2
+Correct: 23
+Missed: 36
+Unsufficient: 0 (0*)
+Total: 59
+0.0337 minutes
+sämre resultat
+---
+Förstorar åt båda håll från 2 till 6
+Correct: 23
+Missed: 36
+Unsufficient: 0 (0*)
+Total: 59
+Total time: 0.0348 minutes
+---
+Slutsats: försämring i båda fallen, går långsammare med störra fönsterstorlek
