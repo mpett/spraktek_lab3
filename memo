@@ -7,12 +7,18 @@
 4. Kör nu programmet OrdHP med träningsmängd ri_dataset1/ och testfilen test1.dat
 Hur många rätt blev det? 16
 Hur många rätt hade det blivit om man hade chansat? 
-
+59 * 0.2 = 11.8
+done
 
 5. Öppna resultatfilen och bekanta dig med resultatet.
 done
 
+6. Ändra från "False" till "True" för parametern stoplist i TrainHP.properties och kör igen på ri_dataset1/. Orden i stopplistan kommer nu inte att tas med i indexeringen. Vad ger detta för resultat? Varför tror du?
+Resultatet ökade från 16 till 24. Anledningen är att vi filtrerar bort ord i stopplistan.
 
+7. Välj minst två parametrar att prova.
+Får du bättre resultat?
+På vilket sätt tror du att de olika parametrarna spelar olika roll beroende på vilken textmängd man använder?
 
 
 
